@@ -70,6 +70,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+        $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
+        $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \

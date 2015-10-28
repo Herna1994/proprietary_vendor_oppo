@@ -16,4 +16,14 @@ DEVICE_PACKAGE_OVERLAYS := vendor/oppo/msm8974-common/overlay
 
 PRODUCT_PACKAGES += libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libqmi \
+    libmdmdetect \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils
+
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor-blobs.mk)
